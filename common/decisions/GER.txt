@@ -577,3 +577,76 @@ GER_ss_waffen_cat = {
 		}
 	}
 }
+
+GER_french_resistance = {
+	GER_stop_french_resistance = {
+		available = {
+			FRA = {
+				OR = {
+					has_capitulated = yes
+					exists = no
+				}
+			}
+			# Check here to see if Prussia actually owns France
+		}
+
+        cost = 25
+		days_remove = 60
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			FRA = {
+				OR = {
+					has_capitulated = yes
+					exists = no
+				}
+			}
+		}
+
+		modifier = {
+			political_power_gain = -0.15
+		}
+		remove_effect = { }
+		complete_effect = { }
+	}
+}
+
+GER_austrian_resistance = {
+	GER_stop_austrian_resistance = {
+		available = {
+			AUS = {
+				OR = {
+					has_capitulated = yes
+					exists = no
+				}
+			}
+			# Check here to see if Prussia actually owns Austria
+		}
+
+        cost = 25
+		days_remove = 60
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			AUS = {
+				OR = {
+					is_subject_of = ROOT
+					has_capitulated = yes
+					exists = no
+				}
+			}
+		}
+
+		modifier = {
+			political_power_gain = -0.15
+		}
+		remove_effect = { }
+		complete_effect = { }
+	}
+}

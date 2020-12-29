@@ -47,3 +47,23 @@ GER_ss_waffen_cat =  {
 		tag = GER
 	}
 }
+
+GER_french_resistance = {
+	icon = hol_gateway_to_europe
+	allowed = {
+		original_tag = GER
+	}
+	priority = {
+		base = 100
+	}
+}
+
+GER_austrian_resistance = {
+	icon = hol_gateway_to_europe
+	allowed = {
+		original_tag = GER
+	}
+	priority = {
+		base = 100
+	}
+}
