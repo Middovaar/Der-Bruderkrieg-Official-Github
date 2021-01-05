@@ -50,8 +50,10 @@ GER_ss_waffen_cat =  {
 
 GER_french_resistance = {
 	icon = hol_gateway_to_europe
-	allowed = {
+	visible_when_empty = yes
+	visible = {
 		original_tag = GER
+		has_completed_focus = PRE_la_resistance
 	}
 	priority = {
 		base = 100
@@ -60,8 +62,10 @@ GER_french_resistance = {
 
 GER_austrian_resistance = {
 	icon = hol_gateway_to_europe
-	allowed = {
+	visible_when_empty = yes
+	visible = {
 		original_tag = GER
+		has_completed_focus = PRE_an_inherited_problem
 	}
 	priority = {
 		base = 100

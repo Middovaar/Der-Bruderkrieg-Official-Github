@@ -740,3 +740,11 @@ GER_german_sphere_desc:0 "Ever since the Austro-Prussian War of 1866, Germany ha
 prussian_legend_text:0 ""
 french_legend_text:0 "§B French Sphere §!"
 austrian_legend_text:0 "§R Austrian Sphere §!"
+
+
+####### Resistance mechanic #######
+GER_french_resistance:0 "The French Resistance"
+GER_french_resistance_desc:0 "The French Resistance Mechanic"
+
+GER_austrian_resistance:0 "The Austrian Resistance"
+GER_austrian_resistance_desc:0 "The Austrian Resistance Mechanic"
